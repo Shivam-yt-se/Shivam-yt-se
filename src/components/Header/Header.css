@@ -1,8 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
-<<<<<<< HEAD
-
-=======
->>>>>>> c2e50a3 (initial commit)
 img {
     max-width: 100%
 }
@@ -20,11 +16,7 @@ img {
     height: 100px;
     box-shadow: 0px 10px 17px 3px rgba(10, 10, 10, 0.6);
     padding-inline: 3vw;
-<<<<<<< HEAD
-    position: relative;
-=======
     position:relative;
->>>>>>> c2e50a3 (initial commit)
     z-index: 100;
 }
 
@@ -36,11 +28,7 @@ li {
     display: inline-block;
     font-weight: 600;
     text-transform: uppercase;
-<<<<<<< HEAD
-    margin-right: 2rem;
-=======
     margin-right: 2.2rem;
->>>>>>> c2e50a3 (initial commit)
     font-size: 15px;
 }
 
@@ -54,20 +42,11 @@ li {
     margin-bottom: 12px;
 }
 
-<<<<<<< HEAD
-.header__list2 {
-    align-self: flex-end;
-    margin-top: 10px;
-}
-
-.header__listsec {
-=======
 .header__list2{
   align-self: flex-end;
   margin-top: 10px;
 }
 .header__listsec{
->>>>>>> c2e50a3 (initial commit)
     display: flex;
     gap: 0.5rem;
     align-items: center;

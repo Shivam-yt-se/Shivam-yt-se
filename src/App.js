@@ -1,19 +1,5 @@
 
 import './App.css';
-<<<<<<< HEAD
-import Header from './components/Header/Header'
-import Footer from './components/Footer/Footer'
-import Home from './components/Home/Home'
-
-function App() {
-  return (
-    <div className="App">
-      <Header />
-      <Home />
-      <Footer />
-    </div>
-  );
-=======
 import { BrowserRouter as Router, Routes,Route} from 'react-router-dom';
 import Routing from './components/Routing';
 import Routing2 from './components/Routing2';
@@ -31,7 +17,6 @@ function App() {
 			</Router>
 		</div>
 	);
->>>>>>> c2e50a3 (initial commit)
 }
 
 export default App;
