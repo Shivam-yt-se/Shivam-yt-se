@@ -6,7 +6,11 @@
     font-family: 'Montserrat',sans-serif;
     background: #001a4b;
     color: #fff;
+<<<<<<< HEAD
     margin-top: 5rem;
+=======
+    margin-top: 2rem;
+>>>>>>> c2e50a3 (initial commit)
     padding: 0.7rem 0 1.5rem 0;
     box-shadow: 1px -9px 20px -3px rgba(0, 0, 0, 0.75);
 }
