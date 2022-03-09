@@ -2,8 +2,8 @@ import React from "react";
 import ndc from "../img/NDC.png";
 import SearchIcon from "@mui/icons-material/Search";
 import "./Header.css";
-import About from "../About";
-import { Link,BrowserRouter as Router,Routes,Route } from "react-router-dom";
+// import About from "../About";
+// import { Link,BrowserRouter as Router,Routes,Route } from "react-router-dom";
 
 const Header = () => {
 	return (

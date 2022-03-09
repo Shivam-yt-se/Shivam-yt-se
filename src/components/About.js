@@ -17,7 +17,7 @@ const About = () => {
 							<div className="img_gov_section">
 								<img
 									src="https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvczg5LXRlZC0yMzk0LnBuZw.png?s=1BBZy9648jXrkEe49Fn0WYZfAXCYjuR3KGgLNlk3wlA"
-									alt="person-image"
+									alt="person"
 								/>
 								<div className="img_gov_content">
 									<h4>DR SG GOPAL KRISHNA</h4>
@@ -45,7 +45,7 @@ const About = () => {
 							<div className="img_gov_section">
 								<img
 									src="https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvczg5LXRlZC0yMzk0LnBuZw.png?s=1BBZy9648jXrkEe49Fn0WYZfAXCYjuR3KGgLNlk3wlA"
-									alt="person-image"
+									alt="person"
 								/>
 								<div className="img_gov_content">
 									<h4>DR SG GOPAL KRISHNA</h4>

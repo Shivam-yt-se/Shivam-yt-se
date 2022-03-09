@@ -2,7 +2,7 @@ import React from 'react'
 import bcg_img from "../img/cheerful-attractive-young-woman-with-black-hair-walking.jpg";
 import "./Home.css"
 import "./Ticker.js"
-import Ticker from './Ticker.js';
+
 
 const Home = () => {
   return (
