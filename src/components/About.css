@@ -58,7 +58,7 @@
     border-spacing: 0;
 }
 .gov_table table th{
-        width: 30%;
+        
     border-block: 1px solid #fff;
     padding:1rem ;
 }
@@ -67,14 +67,119 @@
  padding:1rem;
 }
 
+.gov_table tr:last-child{
+    border-bottom: non;
+}
+.gov_head1{
+    width: 20%;
+}
+.gov_header{
+    font-size: 3rem;
+}
+.gov_head2{
+    width: 45%;
+}
+.gov_head3{
+    width: 35%;
+}
+.gov_table table p{
+    margin: 0;
+    padding: 0;
+    padding-top: 0.3rem;
+}
+
 .iqac_button button{
     width: 100%;
-    font-size: 2rem;
+    font-size: 3rem;
     background-color: #001a4b;
     border: 2px solid #fff;
     color: #fff;
     font-weight: 700;
+    margin-top: 6rem;
     padding-block: 1.8rem;
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 
+}
+.about_vision_content{
+    width:85%;
+    margin: auto;
+    background-color: #001a4b;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    color: #fff;
+    padding-block: 1.5rem;
+    margin-block: 3rem;
+}
+
+.vision_box{
+    border-right: 1px solid #fff;
+    padding-inline: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.vision_box img{
+    width: 4rem;
+}
+.vision_img{
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.vision_img p{
+    line-height: 1.3;
+}
+.about_ndc_main_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+.flex_content{
+    display: flex;
+    align-items: center;
+    /* padding-inline: 1rem; */
+}
+.flex_content_box{
+    background-color: #f58220;
+    position: relative;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 0.2rem;
+    box-shadow: 5px 8px 21px 3px rgba(245, 130, 32, 0.72);
+
+    /* flex-basis:100%; */
+    /* text-align: justify; */
+}
+.top_img,.bottom_img{
+    width: 50%;
+    margin: auto;
+    position: relative;
+}
+.middle_img{
+    position: relative;
+    left: 1rem;
+    /* width: 100%; */
+}
+
+.top_img{
+    top: 2rem;
+}
+.bottom_img{
+    bottom: 2rem;
+    z-index: -1;
+}
+
+.right_side_content .middle_img{
+    left: -1rem;
+    position: relative;
+    z-index: -1
+}
+.right_content_box{
+    background-color: #001a4b;
+  box-shadow: -9px 10px 21px 5px rgba(0, 26, 75, 0.71);
+}
+
+.about .home button{
+    background-color: #f58220;
 }
